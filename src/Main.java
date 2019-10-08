@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("Initialize Skynet");
+        Game game1 = new Game("Nick", "Miki");
+        game1.drawBoard();
     }
 }
